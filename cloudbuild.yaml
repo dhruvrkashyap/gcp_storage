@@ -1,6 +1,7 @@
 steps:
-- name: 'gcr.io/$PROJECT_ID/gsutil'
+- name: 'gcr.io/cloud-builders/gcloud'
   args:
+    - 'storage'
     - 'cp'
     - '*'
     - 'gs://neural-cairn-382610-bucket-1/'
