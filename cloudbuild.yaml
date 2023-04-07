@@ -3,5 +3,5 @@ steps:
   args:
     - 'storage'
     - 'cp'
-    - '*'
+    - '*.txt'
     - 'gs://neural-cairn-382610-bucket-1/'
