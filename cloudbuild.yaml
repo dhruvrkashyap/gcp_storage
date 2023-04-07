@@ -1,0 +1,5 @@
+- name: 'gcr.io/$PROJECT_ID/gsutil'
+  args:
+    - 'cp'
+    - '*'
+    - 'gs://neural-cairn-382610-bucket-1/'
